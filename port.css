@@ -150,7 +150,7 @@ justify-content: center;
   border-radius: 10px;
 
   opacity: 0;
-  pointer-events: none;   /* prevents hover flicker */
+  pointer-events: auto;   /* prevents hover flicker */
   transition: opacity 0.3s ease;
   z-index: 1000;  /* very high z-index to appear above everything */
 }
