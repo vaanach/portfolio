@@ -190,7 +190,7 @@ justify-content: center;
     background-repeat: no-repeat;
 }
 .box.netf{
-    ackground-image: url("netflixlogo.png.webp");
+    background-image: url("netflixlogo.png.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
