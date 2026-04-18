@@ -190,6 +190,7 @@ justify-content: center;
     background-color:transparent;
 }
 .box.todo{
-    background-image: url("todo-list.png");
+    background-image: url("todo.jpg");
+    background-color:transparent;
 }
     
