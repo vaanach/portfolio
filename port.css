@@ -19,10 +19,10 @@ body{
         typing 30s steps(57),
         cursor .4s step-ends infinite alternate;
 }
-@keyframe cursor{
+@keyframes cursor{
     50%{border-color:transprent}
 }
-@keyframe typing{
+@keyframes typing{
     from {width:0}
 }
 #intro{
