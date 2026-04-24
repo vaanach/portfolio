@@ -7,9 +7,10 @@ body{
 }
 
 .container{
-    diplay:inline-block;
+    display:inline-block;
 }
 .typ{
+    display:inline-block;
     font-family:monospace;
     border-right:5px solid;
     width:100%;
