@@ -16,10 +16,12 @@ body{
     width:100%;
     white-space:nowrap;
     overflow:hidden;
-    animation:
-        typing 15s steps(57) forwards,
-        cursor .4s step-end infinite alternate;
+   
 }
+.typ:hover{
+     animation:
+        typing 15s steps(57) forwards,
+        cursor .4s step-end infinite alternate;}
 @keyframes cursor{
     50%{border-color:transprent}
 }
