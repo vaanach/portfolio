@@ -6,7 +6,25 @@ body{
     background-color: #F4BB44;
 }
 
-
+.container{
+    diplay:inline-block;
+}
+.typ{
+    font-family:monospace;
+    border-right:5px solid;
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:
+        typing 30s steps(57),
+        cursor .4s step-ends infinite alternate;
+}
+@keyframe cursor{
+    50%{border-color:transprent}
+}
+@keyframe typing{
+    from {width:0}
+}
 #intro{
     background-image: url("vani.jpeg");
     background-repeat: no-repeat;
