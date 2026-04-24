@@ -16,14 +16,15 @@ body{
     white-space:nowrap;
     overflow:hidden;
     animation:
-        typing 30s steps(57),
-        cursor .4s step-ends infinite alternate;
+        typing 5s steps(57) forwards,
+        cursor .4s step-end infinite alternate;
 }
 @keyframes cursor{
     50%{border-color:transprent}
 }
 @keyframes typing{
     from {width:0}
+    to{width:100%}
 }
 #intro{
     background-image: url("vani.jpeg");
