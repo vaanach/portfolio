@@ -17,7 +17,7 @@ body{
     white-space:nowrap;
     overflow:hidden;
     animation:
-        typing 5s steps(57) forwards,
+        typing 15s steps(57) forwards,
         cursor .4s step-end infinite alternate;
 }
 @keyframes cursor{
