@@ -193,7 +193,9 @@ justify-content: center;
 
 .box.two{
     background-image: url("snake.PNG");
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .box.three{
     background-image: url("board.png.avif");
