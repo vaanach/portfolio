@@ -192,7 +192,7 @@ justify-content: center;
 }
 
 .box.two{
-    background-image: url("snake.PNG");
+    background-image: url("snake.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
