@@ -213,6 +213,12 @@ justify-content: center;
     
     background-color:transparent;
 }
+.box.typanim{
+    background-image: url("type.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .box.todo{
     background-image: url("todo.jpg");
     
